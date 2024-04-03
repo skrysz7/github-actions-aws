@@ -1,6 +1,6 @@
 name: 'Prod deployment for AWS'
 on:
-  push:
+  pull_request:
     branches:
       - main
       - master
