@@ -22,8 +22,7 @@ env:
 jobs:
   plan:
     runs-on: ubuntu-latest
-    environment: QA
-     steps:
+    steps:
     - name: Checkout
       uses: actions/checkout@v3
                   
